@@ -1,0 +1,376 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 6.422870883691808,
+    "validation": {
+      "loss": 5.964454186480978,
+      "cross_entropy": {
+        "pitch": 3.757651171740209,
+        "step": 1.8533844141568538,
+        "duration": 1.9501042231104964,
+        "velocity": 2.033724640713962
+      },
+      "accuracy": {
+        "pitch": 0.06116287094547964,
+        "step": 0.3719806763285024,
+        "duration": 0.30184610075914425,
+        "velocity": 0.21816770186335405
+      },
+      "pitch_perplexity": 42.84766588251572,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 2,
+    "train_loss": 5.830771742915745,
+    "validation": {
+      "loss": 5.721390448676216,
+      "cross_entropy": {
+        "pitch": 3.5863266886308987,
+        "step": 1.791446872708549,
+        "duration": 1.8996480305989583,
+        "velocity": 1.930108722610421
+      },
+      "accuracy": {
+        "pitch": 0.07539682539682539,
+        "step": 0.38867322291235334,
+        "duration": 0.31180986887508627,
+        "velocity": 0.24762767425810905
+      },
+      "pitch_perplexity": 36.1012210414932,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 3,
+    "train_loss": 5.623896495755973,
+    "validation": {
+      "loss": 5.642678603968018,
+      "cross_entropy": {
+        "pitch": 3.5457394470256967,
+        "step": 1.746663474641725,
+        "duration": 1.8835852118176868,
+        "velocity": 1.878765424750771
+      },
+      "accuracy": {
+        "pitch": 0.08104727398205659,
+        "step": 0.3962646652864044,
+        "duration": 0.31370772946859904,
+        "velocity": 0.2614734299516908
+      },
+      "pitch_perplexity": 34.66530902706946,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 4,
+    "train_loss": 5.50124641403335,
+    "validation": {
+      "loss": 5.6016379183288105,
+      "cross_entropy": {
+        "pitch": 3.5250430742241416,
+        "step": 1.7143706643556709,
+        "duration": 1.8831380629555943,
+        "velocity": 1.8522698696602453
+      },
+      "accuracy": {
+        "pitch": 0.08505866114561766,
+        "step": 0.40540890269151136,
+        "duration": 0.31983264320220844,
+        "velocity": 0.269496204278813
+      },
+      "pitch_perplexity": 33.95523618020192,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 5,
+    "train_loss": 5.409310812294298,
+    "validation": {
+      "loss": 5.560453825872301,
+      "cross_entropy": {
+        "pitch": 3.4963750424592392,
+        "step": 1.70147300704419,
+        "duration": 1.8730323006976795,
+        "velocity": 1.845507530280851
+      },
+      "accuracy": {
+        "pitch": 0.09006211180124224,
+        "step": 0.41002415458937197,
+        "duration": 0.32047964113181504,
+        "velocity": 0.2751897860593513
+      },
+      "pitch_perplexity": 32.995627162509486,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 6,
+    "train_loss": 5.328098554851186,
+    "validation": {
+      "loss": 5.550131528339689,
+      "cross_entropy": {
+        "pitch": 3.4976724080993358,
+        "step": 1.6873626182456112,
+        "duration": 1.8668349682667735,
+        "velocity": 1.835735513227738
+      },
+      "accuracy": {
+        "pitch": 0.08915631469979296,
+        "step": 0.41705486542443065,
+        "duration": 0.32423222912353344,
+        "velocity": 0.2761818495514148
+      },
+      "pitch_perplexity": 33.03846233589644,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 7,
+    "train_loss": 5.252954842180517,
+    "validation": {
+      "loss": 5.534753782326308,
+      "cross_entropy": {
+        "pitch": 3.4841432854420074,
+        "step": 1.6812250888948197,
+        "duration": 1.8717823647235161,
+        "velocity": 1.8273784671675508
+      },
+      "accuracy": {
+        "pitch": 0.09562629399585922,
+        "step": 0.41804692891649414,
+        "duration": 0.3178485162180814,
+        "velocity": 0.27449965493443756
+      },
+      "pitch_perplexity": 32.59449096999488,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 8,
+    "train_loss": 5.184683330467511,
+    "validation": {
+      "loss": 5.533291579115547,
+      "cross_entropy": {
+        "pitch": 3.4870270596774717,
+        "step": 1.674346797461342,
+        "duration": 1.8699678324929099,
+        "velocity": 1.8273813630729976
+      },
+      "accuracy": {
+        "pitch": 0.09773982056590752,
+        "step": 0.42115251897860595,
+        "duration": 0.3196169772256729,
+        "velocity": 0.2781228433402346
+      },
+      "pitch_perplexity": 32.68862178404654,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 9,
+    "train_loss": 5.116523621206405,
+    "validation": {
+      "loss": 5.527811238122365,
+      "cross_entropy": {
+        "pitch": 3.4791658874048372,
+        "step": 1.6798913085600522,
+        "duration": 1.869217908818447,
+        "velocity": 1.8272716135218523
+      },
+      "accuracy": {
+        "pitch": 0.10106107660455486,
+        "step": 0.42020358868184954,
+        "duration": 0.32462042788129747,
+        "velocity": 0.2744133885438233
+      },
+      "pitch_perplexity": 32.43265830153148,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 10,
+    "train_loss": 5.058455198150551,
+    "validation": {
+      "loss": 5.525578126453219,
+      "cross_entropy": {
+        "pitch": 3.478091853992786,
+        "step": 1.6768958366188698,
+        "duration": 1.8686169926424203,
+        "velocity": 1.8315323855319132
+      },
+      "accuracy": {
+        "pitch": 0.10235507246376811,
+        "step": 0.42106625258799174,
+        "duration": 0.32190303657694963,
+        "velocity": 0.27355072463768115
+      },
+      "pitch_perplexity": 32.39784324248905,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 11,
+    "train_loss": 5.0051803082607815,
+    "validation": {
+      "loss": 5.535471577246161,
+      "cross_entropy": {
+        "pitch": 3.486758846180286,
+        "step": 1.6771540039567967,
+        "duration": 1.8703396772828245,
+        "velocity": 1.8331059363070976
+      },
+      "accuracy": {
+        "pitch": 0.10520186335403726,
+        "step": 0.4214113181504486,
+        "duration": 0.3218599033816425,
+        "velocity": 0.27311939268461005
+      },
+      "pitch_perplexity": 32.67985543015942,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 12,
+    "train_loss": 4.953968668756548,
+    "validation": {
+      "loss": 5.5529275898114,
+      "cross_entropy": {
+        "pitch": 3.4987310668861067,
+        "step": 1.6870423416337776,
+        "duration": 1.871764125784485,
+        "velocity": 1.8319552614410801
+      },
+      "accuracy": {
+        "pitch": 0.10653899240855763,
+        "step": 0.4167529330572809,
+        "duration": 0.32190303657694963,
+        "velocity": 0.2753623188405797
+      },
+      "pitch_perplexity": 33.07345731495236,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 13,
+    "train_loss": 4.90635563578535,
+    "validation": {
+      "loss": 5.571918218492885,
+      "cross_entropy": {
+        "pitch": 3.5198538643973216,
+        "step": 1.6809860871856668,
+        "duration": 1.8742023518037763,
+        "velocity": 1.8298008973389515
+      },
+      "accuracy": {
+        "pitch": 0.10783298826777088,
+        "step": 0.4197722567287785,
+        "duration": 0.3190131124913734,
+        "velocity": 0.27605244996549344
+      },
+      "pitch_perplexity": 33.77949171676089,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 14,
+    "train_loss": 4.865294563486756,
+    "validation": {
+      "loss": 5.583462869290075,
+      "cross_entropy": {
+        "pitch": 3.5274362083629875,
+        "step": 1.6874866893655107,
+        "duration": 1.8749900591463942,
+        "velocity": 1.8319219111409
+      },
+      "accuracy": {
+        "pitch": 0.10502933057280883,
+        "step": 0.4198585231193927,
+        "duration": 0.3185386473429952,
+        "velocity": 0.2736801242236025
+      },
+      "pitch_perplexity": 34.036592925071005,
+      "target_events": 23184
+    },
+    "learning_rate": 0.002
+  },
+  {
+    "epoch": 15,
+    "train_loss": 4.801747271949692,
+    "validation": {
+      "loss": 5.5956451447607325,
+      "cross_entropy": {
+        "pitch": 3.537646812928636,
+        "step": 1.6899731559042606,
+        "duration": 1.8757158678264105,
+        "velocity": 1.8343587997784032
+      },
+      "accuracy": {
+        "pitch": 0.10731538992408558,
+        "step": 0.41959972394755,
+        "duration": 0.32164423740510695,
+        "velocity": 0.2712646652864044
+      },
+      "pitch_perplexity": 34.38590743751648,
+      "target_events": 23184
+    },
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 16,
+    "train_loss": 4.775793685702692,
+    "validation": {
+      "loss": 5.610226251932569,
+      "cross_entropy": {
+        "pitch": 3.5535654050880994,
+        "step": 1.6916739053772267,
+        "duration": 1.8716055881244877,
+        "velocity": 1.8334740006240835
+      },
+      "accuracy": {
+        "pitch": 0.10791925465838509,
+        "step": 0.4195134575569358,
+        "duration": 0.3237146307798482,
+        "velocity": 0.27247239475500346
+      },
+      "pitch_perplexity": 34.93766260553995,
+      "target_events": 23184
+    },
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 17,
+    "train_loss": 4.752151108741431,
+    "validation": {
+      "loss": 5.622121353096761,
+      "cross_entropy": {
+        "pitch": 3.5661196922581304,
+        "step": 1.690852447572949,
+        "duration": 1.8722811554776462,
+        "velocity": 1.8295657287555533
+      },
+      "accuracy": {
+        "pitch": 0.10666839199447894,
+        "step": 0.4178743961352657,
+        "duration": 0.3221187025534852,
+        "velocity": 0.274283988957902
+      },
+      "pitch_perplexity": 35.37904487765979,
+      "target_events": 23184
+    },
+    "learning_rate": 0.001
+  }
+]

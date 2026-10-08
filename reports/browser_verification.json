@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8501",
+  "browser": "msedge",
+  "checks": [
+    "Featured WAV loads and plays in the browser",
+    "Generate button creates a new composition",
+    "MIDI download is a parseable 128-note composition",
+    "WAV download has valid audio frames and sample rate",
+    "Example library displays three playable compositions",
+    "Model information displays the recorded evaluation and learning curves",
+    "Compose controls remain available at mobile width"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "dataset": "maestro-v3.0.0",
+  "dataset_manifest_sha256": "e507d5f5563b9a7f67b66675a1826e9f8f7508606c1a4681a56029c749232442",
+  "data_counts": {
+    "train": {
+      "pieces": 96,
+      "notes": 143759
+    },
+    "validation": {
+      "pieces": 16,
+      "notes": 23906
+    },
+    "test": {
+      "pieces": 16,
+      "notes": 24414
+    }
+  },
+  "model_config": {
+    "hidden_size": 128,
+    "layers": 2,
+    "dropout": 0.2,
+    "embedding_sizes": [
+      48,
+      16,
+      16,
+      8
+    ]
+  },
+  "parameters": 266265,
+  "sequence_length": 48,
+  "seed": 42,
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce GTX 1660 SUPER",
+  "torch_version": "2.9.0+cu126",
+  "batch_size": 64,
+  "initial_learning_rate": 0.002,
+  "epochs_completed": 17,
+  "best_epoch": 10,
+  "elapsed_seconds": 12.23,
+  "validation": {
+    "loss": 5.525578126453219,
+    "cross_entropy": {
+      "pitch": 3.478091853992786,
+      "step": 1.6768958366188698,
+      "duration": 1.8686169926424203,
+      "velocity": 1.8315323855319132
+    },
+    "accuracy": {
+      "pitch": 0.10235507246376811,
+      "step": 0.42106625258799174,
+      "duration": 0.32190303657694963,
+      "velocity": 0.27355072463768115
+    },
+    "pitch_perplexity": 32.39784324248905,
+    "target_events": 23184
+  },
+  "test": {
+    "loss": 5.506577122026073,
+    "cross_entropy": {
+      "pitch": 3.3927518626658637,
+      "step": 1.7243542364918758,
+      "duration": 1.9353698359058062,
+      "velocity": 1.8930881544091236
+    },
+    "accuracy": {
+      "pitch": 0.12314063556457065,
+      "step": 0.4090601757944557,
+      "duration": 0.31643002028397565,
+      "velocity": 0.2644945909398242
+    },
+    "pitch_perplexity": 29.747701326367817,
+    "target_events": 23664
+  },
+  "unigram_baseline_test": {
+    "loss": 6.542502146146979,
+    "cross_entropy": {
+      "pitch": 4.043991861948138,
+      "step": 2.0876009085732115,
+      "duration": 2.2401160982846577,
+      "velocity": 2.231011871799376
+    },
+    "accuracy": {
+      "pitch": 0.025397227856659904,
+      "step": 0.3016818796484111,
+      "duration": 0.22988505747126436,
+      "velocity": 0.1705966869506423
+    },
+    "pitch_perplexity": 57.053639086824546,
+    "target_events": 23664
+  },
+  "test_loss_improvement_percent": 15.83377431111711,
+  "checkpoint_sha256": "98c55a39c426d825c6b471f7cc451d9b920d9d32b6c2b469481082580bc1453f"
+}
