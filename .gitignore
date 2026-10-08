@@ -6,3 +6,5 @@ data/raw/
 data/processed/
 outputs/generated/
 *.log
+reports/browser_download.*
+reports/studio_*.png

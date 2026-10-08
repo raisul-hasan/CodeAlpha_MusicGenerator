@@ -22,4 +22,4 @@ Citation: Curtis Hawthorne, Andriy Stasyuk, Adam Roberts, Ian Simon, Cheng-Zhi A
 
 Paper: https://openreview.net/forum?id=r1lYRjC9F7
 
-The recorded training run uses 96 training performances, with separate 16-performance validation and test subsets from the official MAESTRO splits. Exact selections appear in `reports/dataset_manifest.json`. Raw MIDI and processed datasets are kept locally; the checkpoint contains short encoded training contexts used to initialize generation.
+The recorded training run uses 96 training performances, with separate 16-performance validation and test subsets from the official MAESTRO splits. Exact selections appear in `reports/dataset_manifest.json`. Raw MIDI downloads and processed datasets are optional retraining files and have been removed during cleanup. Run `python -m musicgen.dataset` to recreate them. The checkpoint contains short encoded training contexts used to initialize generation, so ordinary generation does not require those files.

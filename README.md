@@ -71,7 +71,7 @@ For a larger run, choose more performances or longer excerpts, then retrain:
 .\.venv\Scripts\python.exe -m musicgen.train --epochs 40 --hidden-size 192 --device auto
 ```
 
-These commands replace the local processed data and trained checkpoint. Model-only inference remains possible without `data/raw` or `data/processed`; the checkpoint stores a small set of training contexts for initialization.
+These commands replace the local processed data and trained checkpoint. Model-only inference remains possible without `data/raw` or `data/processed`; the checkpoint stores a small set of training contexts for initialization. The downloaded archive and processed caches were removed during project cleanup. Run `python -m musicgen.dataset` before training again to recreate them.
 
 ## Recorded training results
 
@@ -121,8 +121,8 @@ app.py                  Local music studio
 setup.ps1 / start.ps1    Windows setup and launch helpers
 musicgen/               Data pipeline, LSTM, training, generation, MIDI, audio, plotting
 models/piano_lstm.pt     Best trained checkpoint and seed contexts
-data/raw/               Verified MAESTRO download (not needed for inference)
-data/processed/         Cached sequences and piece boundaries
+data/raw/               Created by dataset preparation; optional for inference
+data/processed/         Created by dataset preparation; optional for inference
 reports/                Actual training metrics, dataset manifest, learning curves
 outputs/examples/       Three generated MIDI/WAV examples and piano rolls
 outputs/generated/      Your generated compositions
